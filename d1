@@ -9,3 +9,8 @@ class rs
 
     }
 }
+-----output-------
+mlm@mlm-ThinkCentre-E73:~/Desktop/java$ javac rs.java
+mlm@mlm-ThinkCentre-E73:~/Desktop/java$ java rs
+String is: Today is monday
+Today = monday
