@@ -15,3 +15,10 @@ public class Shapes {
         System.out.println("Area of circle:" + obj.area(2.5));
     }
 }
+
+
+------output----------
+
+Area of square:25
+Area of triangle:4.0
+Area of circle:19.625
