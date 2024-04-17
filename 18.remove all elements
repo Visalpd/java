@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+public class RemoveAll {
+public static void main(String[] args) {
+LinkedList<String> linkedList = new LinkedList<>();
+linkedList.add("Apple");
+linkedList.add("Banana");
+linkedList.add("Cherry");
+linkedList.add("Date");
+System.out.println("Initial LinkedList: " + linkedList);
+linkedList.clear();
+System.out.println("LinkedList after removing all elements: " + linkedList);
+}
+}
+
+----output------
+mlm@mlm-ThinkCentre-E73:~/Desktop/java$ javac RemoveAll.java
+mlm@mlm-ThinkCentre-E73:~/Desktop/java$ java RemoveAll
+Initial LinkedList: [Apple, Banana, Cherry, Date]
+LinkedList after removing all elements: []
